@@ -1,0 +1,25 @@
+.post-header {
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  -webkit-align-items: center; /* Safari 7.0+ */
+
+  .post-avatar {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+
+  .post-author {
+    color: #666;
+    font-size: 16px;
+  }
+
+  .post-time {
+    color: #999;
+    font-size: 14px;
+  }
+}
